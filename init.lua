@@ -19,4 +19,6 @@ require "user.indentline"
 require "user.alpha"
 require "user.whichkey"
 require "user.autocommands"
+-- ui
 require "user.ui.notify"
+require "user.ui.error_lense"
