@@ -24,6 +24,22 @@ keymap("n", "<C-h>", "<C-w>h", opts)
 keymap("n", "<C-j>", "<C-w>j", opts)
 keymap("n", "<C-k>", "<C-w>k", opts)
 keymap("n", "<C-l>", "<C-w>l", opts)
+-- enter command mode
+keymap("n", ";", ":", opts)
+-- lsp rename
+keymap("n", "R", "<cmd>lua vim.lsp.buf.rename()<cr>", opts)
+-- telescope
+keymap("n","sr","<cmd>Telescope oldfiles<cr>",opts)
+keymap("n","sR","<cmd>Telescope registers<cr>",opts)
+keymap("n","sk","<cmd>Telescope keymaps<cr>",opts)
+keymap("n","sC","<cmd>Telescope commands<cr>",opts)
+keymap("n","sc","<cmd>Telescope colorscheme<cr>",opts)
+keymap("n","sb","<cmd>Telescope git_branches<cr>",opts)
+keymap("n","sh","<cmd>Telescope help_tags<cr>",opts)
+keymap("n","sw","<cmd>Telescope live_grep theme=ivy<cr>",opts)
+keymap("n","F","<cmd>Telescope live_grep theme=ivy<cr>",opts)
+keymap("n","P","<cmd>lua require('telescope').extensions.projects.projects()<cr>",opts)
+keymap("n","sf","<cmd>Telescope file_browser<cr>",opts)
 
 -- Resize with arrows
 keymap("n", "<C-Up>", ":resize -2<CR>", opts)
