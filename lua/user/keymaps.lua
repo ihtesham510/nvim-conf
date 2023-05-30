@@ -29,17 +29,17 @@ keymap("n", ";", ":", opts)
 -- lsp rename
 keymap("n", "R", "<cmd>lua vim.lsp.buf.rename()<cr>", opts)
 -- telescope
-keymap("n","sr","<cmd>Telescope oldfiles<cr>",opts)
-keymap("n","sR","<cmd>Telescope registers<cr>",opts)
-keymap("n","sk","<cmd>Telescope keymaps<cr>",opts)
-keymap("n","sC","<cmd>Telescope commands<cr>",opts)
-keymap("n","sc","<cmd>Telescope colorscheme<cr>",opts)
-keymap("n","sb","<cmd>Telescope git_branches<cr>",opts)
-keymap("n","sh","<cmd>Telescope help_tags<cr>",opts)
-keymap("n","sw","<cmd>Telescope live_grep theme=ivy<cr>",opts)
-keymap("n","F","<cmd>Telescope live_grep theme=ivy<cr>",opts)
-keymap("n","P","<cmd>lua require('telescope').extensions.projects.projects()<cr>",opts)
-keymap("n","sf","<cmd>Telescope file_browser<cr>",opts)
+keymap("n", "sr", "<cmd>Telescope oldfiles<cr>", opts)
+keymap("n", "sR", "<cmd>Telescope registers<cr>", opts)
+keymap("n", "sk", "<cmd>Telescope keymaps<cr>", opts)
+keymap("n", "sC", "<cmd>Telescope commands<cr>", opts)
+keymap("n", "sc", "<cmd>Telescope colorscheme<cr>", opts)
+keymap("n", "sb", "<cmd>Telescope git_branches<cr>", opts)
+keymap("n", "sh", "<cmd>Telescope help_tags<cr>", opts)
+keymap("n", "F", "<cmd>Telescope live_grep theme=ivy<cr>", opts)
+keymap("n", "P", "<cmd>lua require('telescope').extensions.projects.projects()<cr>", opts)
+keymap("n", "sf", "<cmd>Telescope file_browser theme=dropdown<cr>", opts)
+keymap("n", "ff", "<cmd>Telescope find_files <cr>", opts)
 
 -- Resize with arrows
 keymap("n", "<C-Up>", ":resize -2<CR>", opts)
@@ -56,7 +56,7 @@ keymap("n", "<A-j>", "<Esc>:m .+1<CR>==gi", opts)
 keymap("n", "<A-k>", "<Esc>:m .-2<CR>==gi", opts)
 
 -- Insert --
--- Press jk fast to exit insert mode 
+-- Press jk to exit insert mode
 keymap("i", "jk", "<ESC>", opts)
 keymap("i", "kj", "<ESC>", opts)
 
@@ -83,4 +83,3 @@ keymap("x", "<A-k>", ":move '<-2<CR>gv-gv", opts)
 -- keymap("t", "<C-j>", "<C-\\><C-N><C-w>j", term_opts)
 -- keymap("t", "<C-k>", "<C-\\><C-N><C-w>k", term_opts)
 -- keymap("t", "<C-l>", "<C-\\><C-N><C-w>l", term_opts)
-
