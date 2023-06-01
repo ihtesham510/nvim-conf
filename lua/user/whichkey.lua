@@ -68,6 +68,25 @@ local setup = {
 		v = { "j", "k" },
 	},
 }
+-- telescope
+which_key.register({
+	s = {
+		name = "Search",
+		b = { "<cmd>Telescope git_branches<cr>", "Checkout branch" },
+		c = { "<cmd>Telescope colorscheme<cr>", "Colorscheme" },
+		h = { "<cmd>Telescope help_tags<cr>", "Find Help" },
+		M = { "<cmd>Telescope man_pages<cr>", "Man Pages" },
+		r = { "<cmd>Telescope oldfiles<cr>", "Open Recent File" },
+		R = { "<cmd>Telescope registers<cr>", "Registers" },
+		k = { "<cmd>Telescope keymaps<cr>", "Keymaps" },
+		C = { "<cmd>Telescope commands<cr>", "Commands" },
+		f = { "<cmd>Telescope file_browser theme=dropdown<cr>", "Commands" },
+		p = { "<cmd>Telescope projects theme=dropdown<cr>", "Commands" },
+	},
+})
+which_key.register({ ["F"] = { "<cmd>Telescope live_grep theme=ivy<cr>", "Find Text" } })
+which_key.register({ f = { name = "files", f = { "<cmd>Telescope find_files <cr>", "Find files" } } })
+which_key.register({ d = { name = "debugger", u = { "<cmd>lua require('dapui').toggle()<cr>", "Toggle UI" } } })
 
 local opts = {
 	mode = "n", -- NORMAL mode
@@ -164,18 +183,6 @@ local mappings = {
 			"Workspace Symbols",
 		},
 	},
-	s = {
-		name = "Search",
-		b = { "<cmd>Telescope git_branches<cr>", "Checkout branch" },
-		c = { "<cmd>Telescope colorscheme<cr>", "Colorscheme" },
-		h = { "<cmd>Telescope help_tags<cr>", "Find Help" },
-		M = { "<cmd>Telescope man_pages<cr>", "Man Pages" },
-		r = { "<cmd>Telescope oldfiles<cr>", "Open Recent File" },
-		R = { "<cmd>Telescope registers<cr>", "Registers" },
-		k = { "<cmd>Telescope keymaps<cr>", "Keymaps" },
-		C = { "<cmd>Telescope commands<cr>", "Commands" },
-	},
-
 	t = {
 		name = "Terminal",
 		n = { "<cmd>lua _NODE_TOGGLE()<cr>", "Node" },

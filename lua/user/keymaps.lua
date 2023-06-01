@@ -1,7 +1,5 @@
 local opts = { noremap = true, silent = true }
 
-local term_opts = { silent = true }
-
 -- Shorten function name
 local keymap = vim.api.nvim_set_keymap
 
@@ -37,11 +35,9 @@ keymap("n", "sc", "<cmd>Telescope colorscheme<cr>", opts)
 keymap("n", "sb", "<cmd>Telescope git_branches<cr>", opts)
 keymap("n", "sh", "<cmd>Telescope help_tags<cr>", opts)
 keymap("n", "F", "<cmd>Telescope live_grep theme=ivy<cr>", opts)
-keymap("n", "P", "<cmd>lua require('telescope').extensions.projects.projects()<cr>", opts)
 keymap("n", "sf", "<cmd>Telescope file_browser theme=dropdown<cr>", opts)
 keymap("n", "ff", "<cmd>Telescope find_files <cr>", opts)
 -- dap
-keymap("n", "du", "<cmd>lua require('dapui').toggle()<cr>", opts)
 
 -- Resize with arrows
 keymap("n", "<C-Up>", ":resize -2<CR>", opts)
