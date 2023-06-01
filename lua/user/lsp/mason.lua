@@ -8,6 +8,7 @@ local servers = {
 	"jsonls",
 	"eslint",
 	"yamlls",
+	"clangd",
 }
 
 local settings = {

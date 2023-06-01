@@ -41,6 +41,7 @@ keymap("n", "P", "<cmd>lua require('telescope').extensions.projects.projects()<c
 keymap("n", "sf", "<cmd>Telescope file_browser theme=dropdown<cr>", opts)
 keymap("n", "ff", "<cmd>Telescope find_files <cr>", opts)
 -- dap
+keymap("n", "du", "<cmd>lua require('dapui').toggle()<cr>", opts)
 
 -- Resize with arrows
 keymap("n", "<C-Up>", ":resize -2<CR>", opts)
