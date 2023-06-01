@@ -94,6 +94,8 @@ return packer.startup(function(use)
 		"nvim-telescope/telescope-file-browser.nvim",
 		requires = { "nvim-telescope/telescope.nvim", "nvim-lua/plenary.nvim" },
 	})
+	use({ "nvim-telescope/telescope-node-modules.nvim" })
+	use({ "nvim-telescope/telescope-packer.nvim" })
 	-- for ui
 	use({ "rcarriga/nvim-notify" })
 	use({

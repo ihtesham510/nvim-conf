@@ -94,5 +94,7 @@ telescope.setup({
 		-- }
 		-- please take a look at the readme of the extension you want to configure
 		require("telescope").load_extension("file_browser"),
+		require("telescope").load_extension("node_modules"),
+		require("telescope").load_extension("packer"),
 	},
 })
