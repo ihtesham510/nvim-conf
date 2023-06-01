@@ -40,6 +40,7 @@ keymap("n", "F", "<cmd>Telescope live_grep theme=ivy<cr>", opts)
 keymap("n", "P", "<cmd>lua require('telescope').extensions.projects.projects()<cr>", opts)
 keymap("n", "sf", "<cmd>Telescope file_browser theme=dropdown<cr>", opts)
 keymap("n", "ff", "<cmd>Telescope find_files <cr>", opts)
+-- dap
 
 -- Resize with arrows
 keymap("n", "<C-Up>", ":resize -2<CR>", opts)
