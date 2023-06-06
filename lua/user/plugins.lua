@@ -59,6 +59,8 @@ return packer.startup(function(use)
   use({ "metakirby5/codi.vim" })
   -- error lense
   use({ "chikko80/error-lens.nvim", requires = { "nvim-telescope/telescope.nvim" } })
+  -- discord precense
+  use({ "andweeb/presence.nvim" })
 
   -- Colorschemes
   use({ "Mofiqul/vscode.nvim" })
@@ -69,6 +71,15 @@ return packer.startup(function(use)
   use({ "dikiaap/minimalist" })
   use({ "folke/tokyonight.nvim", commit = "66bfc2e8f754869c7b651f3f47a2ee56ae557764" })
   use({ "lunarvim/darkplus.nvim", commit = "13ef9daad28d3cf6c5e793acfc16ddbf456e1c83" })
+  -- ranger
+  use({ "kelly-lin/ranger.nvim" })
+  -- seach and replace
+  use({
+    "VonHeikemen/searchbox.nvim",
+    requires = {
+      { "MunifTanjim/nui.nvim" },
+    },
+  })
 
   -- Cmp
   use({ "hrsh7th/nvim-cmp", commit = "b0dff0ec4f2748626aae13f011d1a47071fe9abc" })        -- The completion plugin
