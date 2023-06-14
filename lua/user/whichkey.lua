@@ -80,7 +80,7 @@ which_key.register({
 		R = { "<cmd>Telescope registers<cr>", "Registers" },
 		k = { "<cmd>Telescope keymaps<cr>", "Keymaps" },
 		C = { "<cmd>Telescope commands<cr>", "Commands" },
-		f = { "<cmd>Telescope file_browser theme=dropdown<cr>", "file_browser" },
+		s = { "<cmd>Telescope file_browser theme=dropdown<cr>", "file_browser" },
 		p = { "<cmd>Telescope projects theme=dropdown<cr>", "Projects" },
 		P = { "<cmd>Telescope planets<cr>", "planets" },
 	},
