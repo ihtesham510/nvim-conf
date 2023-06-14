@@ -23,5 +23,6 @@ require("user.dap-virtual-text")
 require("user.dap-ui")
 require("user.ranger")
 -- ui
+require("user.ui.noice")
 require("user.ui.notify")
 require("user.ui.error_lense")
