@@ -75,6 +75,7 @@ return packer.startup(function(use)
 	use({ "lunarvim/darkplus.nvim", commit = "13ef9daad28d3cf6c5e793acfc16ddbf456e1c83" })
 	-- ranger
 	use({ "kelly-lin/ranger.nvim" })
+	use({ "kevinhwang91/rnvimr" })
 	-- seach and replace
 	use({
 		"VonHeikemen/searchbox.nvim",
