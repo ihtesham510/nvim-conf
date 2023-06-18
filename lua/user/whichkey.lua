@@ -91,7 +91,7 @@ which_key.register({
 		"Seach and Replace",
 	},
 })
-which_key.register({ ["<A-v>"] = { "<cmd>ToggleTerm direction=vertical<cr>", "toggle term vertical" } })
+which_key.register({ ["<A-v>"] = { "<cmd>ToggleTerm size=80 direction=vertical<cr>", "toggle term vertical" } })
 which_key.register({ ["F"] = { "<cmd>Telescope live_grep theme=ivy<cr>", "Find Text" } })
 which_key.register({ f = { name = "files", f = { "<cmd>Telescope find_files <cr>", "Find files" } } })
 which_key.register({ d = { name = "debugger", u = { "<cmd>lua require('dapui').toggle()<cr>", "Toggle UI" } } })
