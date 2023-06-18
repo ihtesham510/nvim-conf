@@ -35,7 +35,7 @@ keymap("n", "sc", "<cmd>Telescope colorscheme<cr>", opts)
 keymap("n", "sb", "<cmd>Telescope git_branches<cr>", opts)
 keymap("n", "sh", "<cmd>Telescope help_tags<cr>", opts)
 keymap("n", "F", "<cmd>Telescope live_grep theme=ivy<cr>", opts)
-keymap("n", "sf", "<cmd>Telescope file_browser theme=dropdown<cr>", opts)
+keymap("n", "sf", "<cmd>:RnvimrToggle<cr>", opts)
 keymap("n", "ff", "<cmd>Telescope find_files <cr>", opts)
 -- dap
 
