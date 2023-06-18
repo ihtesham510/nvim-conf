@@ -9,6 +9,7 @@
 | `<leader>e` | Explorer      |
 | `<leader>w` | Save          |
 | `<leader>q` | Quit          |
+| `<leader>h` | No Highlight  |
 
 ## Buffer (Tabs)
 
@@ -17,7 +18,6 @@
 | `<leader>c` | Close Buffer             |
 | `L`         | Move to the right buffer |
 | `H`         | Move to the left buffer  |
-| `<leader>h` | No Highlight             |
 
 ## Packer
 
