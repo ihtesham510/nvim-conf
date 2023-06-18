@@ -12,20 +12,22 @@
 
 ## Buffer (Tabs)
 
-| Key           | Functionality            |
-| ------------- | ------------------------ |
-| `<leader>c`   | Close Buffer             |
-| `L`           | Move to the right buffer |
-| `H`           | Move to the left buffer  |
-| `<leader>h`   | No Highlight             |
-| `<leader>f`   | Find files               |
-| `<leader>F`   | Find Text                |
-| `<leader>P`   | Projects                 |
-| `<leader>p>c` | Compile Packer           |
-| `<leader>p>i` | Install Packer           |
-| `<leader>p>s` | Sync Packer              |
-| `<leader>p>S` | Status Packer            |
-| `<leader>p>u` | Update Packer            |
+| Key         | Functionality            |
+| ----------- | ------------------------ |
+| `<leader>c` | Close Buffer             |
+| `L`         | Move to the right buffer |
+| `H`         | Move to the left buffer  |
+| `<leader>h` | No Highlight             |
+
+## Packer
+
+| Key           | Functionality  |
+| ------------- | -------------- |
+| `<leader>p>c` | Compile Packer |
+| `<leader>p>i` | Install Packer |
+| `<leader>p>s` | Sync Packer    |
+| `<leader>p>S` | Status Packer  |
+| `<leader>p>u` | Update Packer  |
 
 ## Mason
 
