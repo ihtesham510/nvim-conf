@@ -1,4 +1,12 @@
+# use config
+
+```
+git clone git@github.com:ihtesham510/nvim-conf.git ~/.config/nvim
+```
+
 # Cheat sheet
+
+> `<leader>` = SPACE by default
 
 ## Basic keymaps
 
