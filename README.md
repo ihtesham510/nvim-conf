@@ -3,6 +3,14 @@
 ```
 git clone git@github.com:ihtesham510/nvim-conf.git ~/.config/nvim
 ```
+# Dependencies
+- git
+- Lazygit
+- Ranger
+- cargo(rust)
+- nodejs
+- python 2 and 3
+- pip
 
 # Cheat sheet
 
