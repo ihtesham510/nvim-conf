@@ -22,6 +22,8 @@ keymap("n", "<C-h>", "<C-w>h", opts)
 keymap("n", "<C-j>", "<C-w>j", opts)
 keymap("n", "<C-k>", "<C-w>k", opts)
 keymap("n", "<C-l>", "<C-w>l", opts)
+-- use ctrl+c to copy whole file
+keymap("n", "<C-c>", "ggVGy", opts)
 -- enter command mode
 keymap("n", ";", ":", opts)
 -- lsp rename
